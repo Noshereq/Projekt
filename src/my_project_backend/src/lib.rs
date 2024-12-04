@@ -21,9 +21,3 @@ fn get_chat() -> Vec<String> {
 fn greet(name: String) -> String {
     format!("Hello, {}!", name)
 }
-
-// new_msg: String
-// msg.borrow_mut(): &mut String
-// &mut String != String
-// *&mut String == String
-// String == String
